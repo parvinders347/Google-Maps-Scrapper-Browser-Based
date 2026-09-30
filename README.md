@@ -14,7 +14,7 @@ Two small Chrome extensions that work together to collect business data from Goo
 ## Folder structure
 
 ```
-your-repo/
+Google-Maps-Scrapper-Browser-Based/
 ├── maps-url-extractor/       ← Extension 1
 │   ├── manifest.json
 │   ├── popup.html
@@ -114,9 +114,3 @@ You can click **Stop Scraping** at any time, and results collected so far can st
 | `popup.html` / `popup.js` | The small window that opens when you click the extension icon |
 | `content.js` | Runs inside the Google Maps page and reads the data |
 | `background.js` | (Details Scraper) Opens each link in turn and saves the results |
-
----
-
-## License
-
-Add a license of your choice (for example MIT) before sharing publicly.
