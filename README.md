@@ -31,6 +31,10 @@ Google-Maps-Scrapper-Browser-Based/
 │   └── icon16.png, icon48.png, icon128.png
 ├── .gitignore
 └── README.md
+
+<img width="1357" height="637" alt="image" src="https://github.com/user-attachments/assets/c9d6e8d0-d166-46fb-8730-87f4d698edd1" />
+
+
 ```
 
 The manifest of each extension lists icon files (`icon16.png`, `icon48.png`, `icon128.png`). Make sure these exist in each folder, or Chrome will refuse to load the extension.
@@ -56,7 +60,7 @@ The manifest of each extension lists icon files (`icon16.png`, `icon48.png`, `ic
 
 ## Step 1: Collect business links (URL Extractor)
 
-1. Go to [Google Maps](https://www.google.com/maps) and search for businesses, for example `restaurants in Delhi`.
+1. Go to [Google Maps](https://www.google.com/maps) and search for businesses, for example `restaurants in Texas`.
 2. Make sure the list of results is showing on the left side.
 3. Click the **Maps Scraper** extension icon.
 4. Click **Start Scraping**. You can close the popup, and a blue box on the page shows progress.
