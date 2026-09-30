@@ -31,13 +31,11 @@ Google-Maps-Scrapper-Browser-Based/
 │   └── icon16.png, icon48.png, icon128.png
 ├── .gitignore
 └── README.md
-
-<img width="1357" height="637" alt="image" src="https://github.com/user-attachments/assets/c9d6e8d0-d166-46fb-8730-87f4d698edd1" />
-
-
 ```
 
 The manifest of each extension lists icon files (`icon16.png`, `icon48.png`, `icon128.png`). Make sure these exist in each folder, or Chrome will refuse to load the extension.
+
+<img width="1357" height="637" alt="image" src="https://github.com/user-attachments/assets/3a082c9c-79c6-4844-8247-83d6bbb70ef2" />
 
 ---
 
