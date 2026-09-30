@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Google Maps Url Extractor",
+    "version": "1.0",
+    "description": "Extract business names and Google Maps URLs from search results",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/maps/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
